@@ -1,0 +1,3 @@
+matplotlib-stubs
+numpy-stubs
+pandas-stubs

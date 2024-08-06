@@ -26,10 +26,10 @@ class stack:
 
 s=stack()
 s.push(56)
-s.push(56)
-s.push(56)
+s.push(46)
+s.push(58)
 s.push(56)
 s.pop()
-print(s.peek())
+#print(s.peek())
 s.prin()
 print(s.is_empty())

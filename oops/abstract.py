@@ -60,4 +60,4 @@ print(dir(e1))
 
 
 #vars to find class atrribute
-#dict to find more about class attribute
+#dir to find more about class attribute

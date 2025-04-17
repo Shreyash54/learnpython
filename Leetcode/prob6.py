@@ -1,4 +1,4 @@
- Group Anagrams
+''' Group Anagrams
 
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 
@@ -17,7 +17,7 @@ The strings "nat" and "tan" are anagrams as they can be rearranged to form each 
 The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other.
 
 
-code:
+code:'''
 
 from collections import defaultdict
 class Solution:

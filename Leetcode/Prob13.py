@@ -1,4 +1,4 @@
- Zigzag Conversion
+''' Zigzag Conversion
 
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
@@ -28,15 +28,13 @@ A   L S  I G
 Y A   H R
 P     I
 
-
 Example 3:
 
 Input: s = "A", numRows = 1
 Output: "A"
- 
-
 
 code:
+'''
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         row=['']*numRows

@@ -1,4 +1,4 @@
-Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+'''Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
  
 
@@ -13,7 +13,7 @@ Input: intervals = [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
-code:
+code:'''
 class Solutio:
     def mergeinterval(self,intervals):
         intervals.sort(key=lambda x:x[0])

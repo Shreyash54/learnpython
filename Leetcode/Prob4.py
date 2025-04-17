@@ -1,4 +1,4 @@
- Longest Palindromic Substring
+''' Longest Palindromic Substring
 Given a string s, return the longest palindromic substring in s.
 
  
@@ -13,7 +13,7 @@ Example 2:
 Input: s = "cbbd"
 Output: "bb"
 
-code:
+code:'''
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s) == 0:

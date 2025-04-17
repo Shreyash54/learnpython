@@ -1,4 +1,4 @@
-You are given an absolute path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its simplified canonical path.
+'''You are given an absolute path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its simplified canonical path.
 
 The rules of a Unix-style file system are as follows:
 
@@ -62,10 +62,10 @@ Output: "/.../b/d"
 
 Explanation:
 
-"..." is a valid name for a directory in this problem.
+"..." is a valid name for a directory in this problem.'''
 
 
-code:
+#code:
 class Solution:
     def simplifyPath(self, path: str) -> str:
         componentsofpath=path.split("/")

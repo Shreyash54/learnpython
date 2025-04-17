@@ -1,4 +1,4 @@
-Write a program to solve a Sudoku puzzle by filling the empty cells.
+'''Write a program to solve a Sudoku puzzle by filling the empty cells.
 
 A sudoku solution must satisfy all of the following rules:
 
@@ -12,7 +12,7 @@ The '.' character indicates empty cells.
 Example 1:
 
 code:
-
+'''
 
 from typing import List
 

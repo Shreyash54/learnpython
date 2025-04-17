@@ -1,4 +1,4 @@
- Multiply Strings
+''' Multiply Strings
 
 Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
 
@@ -15,7 +15,8 @@ Example 2:
 Input: num1 = "123", num2 = "456"
 Output: "56088"
 
-code:
+code:'''
+
 class Solution:
     def multiply(self,num1:str,num2:str)->str:
         m=len(num1)

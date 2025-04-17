@@ -1,4 +1,4 @@
-2530. Maximal Score After Applying K Operations
+'''2530. Maximal Score After Applying K Operations
 
 You are given a 0-indexed integer array nums and an integer k. You have a starting score of 0.
 
@@ -29,7 +29,7 @@ Operation 3: Select i = 2, so nums becomes [1,2,1,3,3]. Your score increases by 
 The final score is 10 + 4 + 3 = 17.
  
 
-code:
+code:'''
 
 import heapq
 import math
